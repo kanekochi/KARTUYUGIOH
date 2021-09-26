@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KARTU YUGIOH</title>
+  </head>
+  <body>
+    <img id="img" src="card.jpg" alt="kartu" width="20%" height="20%" ondblclick="membukaKartu()" onclick="menutupKartu()"/>   
+    <script>
+      const menampilkanKARTU = "click dua untuk membuka kartu";
+      const menutupKARTU = "dan click sekali untuk menutup kartu";
+      alert(`${menampilkanKARTU}`);
+      alert(`${menutupKARTU}`);
+
+
+        function menutupKartu() {
+            document.getElementById('img').src='yugi.jpg'
+        }
+        function membukaKartu() {
+            document.getElementById('img').src='card.jpg'
+        }
+
+
+</script>
+</html>
